@@ -3,7 +3,7 @@
   (general
     (links 74)
     (no_connects 0)
-    (area 77.874999 31.324999 127.025001 94.725001)
+    (area 77.874999 23.201 127.675 97.045)
     (thickness 1.6)
     (drawings 9)
     (tracks 400)
@@ -13,9 +13,16 @@
   )
 
   (page User 200.812 150.597)
+  (title_block
+    (title MeterBoard32)
+    (date 2018-03-22)
+    (rev 1)
+    (company "Henrik Nelson")
+  )
+
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -2088,6 +2095,11 @@
     (pad 3 smd rect (at -0.07 -2.67) (size 0.4 1.25) (layers F.Cu F.Paste F.Mask)
       (net 5 /D+))
     (pad 0 thru_hole oval (at 3.53 0.12) (size 1.1 1.8) (drill oval 0.5 1.29) (layers *.Cu *.Mask))
+    (model Connectors_USB.3dshapes/USB_Micro-B_Molex_47346-0001.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Henrik-Connectors:TERMINAL_BLOCK_WJ126V_5_0_2P (layer F.Cu) (tedit 5AB1339C) (tstamp 5AF3BD72)
@@ -2109,9 +2121,14 @@
       (net 17 "Net-(J1-Pad2)"))
     (pad 1 thru_hole circle (at -2.5 0 90) (size 1.7 1.7) (drill 1.3) (layers *.Cu *.Mask)
       (net 16 "Net-(J1-Pad1)"))
+    (model Terminal_Blocks.3dshapes/TerminalBlock_Pheonix_MKDS1.5-2pol.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (gr_text "© Henrik Nelson - 2018" (at 104.2 82.3) (layer B.SilkS)
+  (gr_text "© Henrik Nelson - 2018" (at 102.3 80.2) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "Rev. 1" (at 85.5 82.9) (layer F.SilkS)
@@ -2123,7 +2140,7 @@
   (gr_line (start 126.95 31.4) (end 77.95 31.4) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 126.95 94.65) (end 126.95 39.65) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 77.95 94.65) (end 126.95 94.65) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text MBusBoard32 (at 80.5 41.3 90) (layer F.SilkS)
+  (gr_text MeterBoard32 (at 80.5 41.3 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 

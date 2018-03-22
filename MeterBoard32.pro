@@ -1,4 +1,4 @@
-update=2018-03-19 16:56:13
+update=2018-03-22 12:41:07
 version=1
 last_client=kicad
 [pcbnew]
@@ -238,7 +238,7 @@ LibName206=harry
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=./
+PlotDirectoryName=Plot/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

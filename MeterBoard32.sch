@@ -209,9 +209,9 @@ EELAYER END
 $Descr User 11693 6890
 encoding utf-8
 Sheet 1 1
-Title "MBusBoard32"
-Date "2018-03-19"
-Rev "2"
+Title "MeterBoard32"
+Date "2018-03-22"
+Rev "1"
 Comp "Henrik Nelson"
 Comment1 ""
 Comment2 ""
