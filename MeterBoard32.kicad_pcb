@@ -2321,7 +2321,7 @@
   (gr_text "© Henrik Nelson \n[henrik@cliffords.nu]\n2021" (at 102.3 80.2) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "Rev. 1" (at 85.5 82.9) (layer F.SilkS)
+  (gr_text "Rev. 2" (at 85.5 82.9) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 126.95 31.4) (end 126.95 39.65) (angle 90) (layer Edge.Cuts) (width 0.15))
