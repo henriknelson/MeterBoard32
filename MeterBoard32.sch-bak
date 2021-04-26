@@ -327,6 +327,17 @@ F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 7050 4100 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Transistor_BJT:S8050 Q2
+U 1 1 5AAAA111
+P 7050 4650
+F 0 "Q2" H 7250 4725 50  0000 L CNN
+F 1 "S8050" H 7250 4650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7250 4575 50  0001 L CIN
+F 3 "" H 7050 4650 50  0001 L CNN
+	1    7050 4650
+	1    0    0    1   
+$EndComp
+$Comp
 L Device:R_Small R5
 U 1 1 5AAAA2B1
 P 6650 4100
@@ -1169,15 +1180,4 @@ Wire Wire Line
 Connection ~ 5800 2300
 Wire Wire Line
 	1700 4500 1700 4550
-$Comp
-L Transistor_BJT:S8050 Q2
-U 1 1 5AAAA111
-P 7050 4650
-F 0 "Q2" H 7250 4725 50  0000 L CNN
-F 1 "S8050" H 7250 4650 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7250 4575 50  0001 L CIN
-F 3 "" H 7050 4650 50  0001 L CNN
-	1    7050 4650
-	1    0    0    1   
-$EndComp
 $EndSCHEMATC

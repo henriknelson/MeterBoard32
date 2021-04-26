@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Henrik-Connectors)(type KiCad)(uri ${KICAD_CUSTOM_DIR}/modules.pretty/Henrik-Connectors.pretty)(options "")(descr ""))
+  (lib (name Henrik-ESP32)(type KiCad)(uri ${KICAD_CUSTOM_DIR}/modules.pretty/Henrik-ESP32.pretty)(options "")(descr ""))
+  (lib (name Harry)(type KiCad)(uri ${KICAD_CUSTOM_DIR}/modules.pretty/Harry.pretty)(options "")(descr ""))
+)
