@@ -316,7 +316,7 @@ DTR
 Text Label 6400 4650 2    60   ~ 0
 RTS
 $Comp
-L Transistor_BJT:S8050 Q1
+L MeterBoard32-rescue:S8050-Transistor_BJT Q1
 U 1 1 5AAAA0A6
 P 7050 4100
 F 0 "Q1" H 7250 4175 50  0000 L CNN
@@ -1170,7 +1170,7 @@ Connection ~ 5800 2300
 Wire Wire Line
 	1700 4500 1700 4550
 $Comp
-L Transistor_BJT:S8050 Q2
+L MeterBoard32-rescue:S8050-Transistor_BJT Q2
 U 1 1 5AAAA111
 P 7050 4650
 F 0 "Q2" H 7250 4725 50  0000 L CNN
