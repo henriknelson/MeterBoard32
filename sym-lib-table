@@ -4,5 +4,4 @@
   (lib (name Henrik-ESP32)(type Legacy)(uri ${KICAD_CUSTOM_DIR}/library/Henrik-ESP32.lib)(options "")(descr ""))
   (lib (name harry)(type Legacy)(uri ${KICAD_CUSTOM_DIR}/library/harry.lib)(options "")(descr ""))
   (lib (name tss721a)(type Legacy)(uri ${KICAD_CUSTOM_DIR}/library/tss721a.lib)(options "")(descr ""))
-  (lib (name MeterBoard32-rescue)(type Legacy)(uri ${KIPRJMOD}/MeterBoard32-rescue.lib)(options "")(descr "")(disabled))
 )
